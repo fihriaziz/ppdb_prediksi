@@ -7,6 +7,7 @@ class Ppdb extends My_Controller
     {
         parent::__construct();
         $this->load->model('siswabaru_model');
+        $this->load->library('PHPExcel');
     }
 
 // ====================================================== //
